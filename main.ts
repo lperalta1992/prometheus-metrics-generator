@@ -30,8 +30,8 @@ interface AppConfig {
 }
 
 console.log("Application for Prometheus / Grafana Training\n")
-console.log("Developed by: Luis Peralta - Mail: luis.peralta@roche.com")
-console.log("Role: GCS RIS Senior S&T\n")
+console.log("Developed by: Luis Peralta - Mail: lperaltamolina@gmail.com")
+console.log("Role: IT Pro\n")
 
 // Load and Parse the new Config Structure ---
 const CONFIG_FILE = "config.json";
