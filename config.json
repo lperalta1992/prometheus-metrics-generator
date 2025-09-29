@@ -1,0 +1,35 @@
+{
+  "settings":{
+    "port": 9091,
+    "update_interval_ms": 5000
+  },
+  "metrics": [
+  {
+    "name": "app_requests_total",
+    "help": "Total number of processed requests.",
+    "type": "gauge",
+    "range": {
+      "min": 100,
+      "max": 500
+    }
+  },
+  {
+    "name": "app_latency_seconds",
+    "help": "Average application latency in seconds.",
+    "type": "gauge",
+    "range": {
+      "min": 0.05,
+      "max": 0.85
+    }
+  },
+  {
+    "name": "app_disk_usage_percent",
+    "help": "Current disk usage percentage.",
+    "type": "gauge",
+    "range": {
+      "min": 20,
+      "max": 95
+    }
+  }
+]
+}
